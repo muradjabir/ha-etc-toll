@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to ETC Toll",
+        "description": "Enter your Expressway Electronic Toll Collection (ETC) card number to monitor your prepaid card balance and status.",
+        "data": {
+          "card_number": "ETC Card Number",
+          "scan_interval": "Update Interval (Seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Expressway ETC portal.",
+      "invalid_card": "ETC card not found or invalid. Please check your card number.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This ETC card is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "ETC Options",
+        "description": "Configure polling frequency.",
+        "data": {
+          "scan_interval": "Update Interval (Seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "balance": {
+        "name": "Balance"
+      },
+      "status": {
+        "name": "Card Status"
+      }
+    }
+  }
+}

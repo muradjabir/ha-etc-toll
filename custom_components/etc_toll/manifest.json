@@ -1,0 +1,14 @@
+{
+  "domain": "etc_toll",
+  "name": "ETC Toll (Sri Lanka)",
+  "codeowners": [
+    "@muradjabir"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/muradjabir/ha-etc-toll",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/muradjabir/ha-etc-toll/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
