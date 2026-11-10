@@ -120,3 +120,4 @@ class EtcSensorEntity(
                 "status": self.coordinator.data.get("status"),
             }
         return {}
+

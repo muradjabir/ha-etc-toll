@@ -7,3 +7,4 @@ CONF_SCAN_INTERVAL = "scan_interval"
 
 DEFAULT_SCAN_INTERVAL = 14400  # 4 hours in seconds
 MIN_SCAN_INTERVAL = 1800  # 30 minutes in seconds
+

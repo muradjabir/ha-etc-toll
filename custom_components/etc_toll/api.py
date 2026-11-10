@@ -106,3 +106,4 @@ class EtcApiClient:
                 )
         except aiohttp.ClientError as err:
             raise EtcApiError(f"Network error querying ETC card balance: {err}") from err
+

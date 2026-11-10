@@ -52,3 +52,4 @@ class EtcDataUpdateCoordinator(DataUpdateCoordinator[dict[str, Any]]):
             raise UpdateFailed(f"Error communicating with ETC portal: {err}") from err
         except Exception as err:
             raise UpdateFailed(f"Unexpected error fetching ETC card data: {err}") from err
+
