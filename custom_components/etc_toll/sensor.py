@@ -79,6 +79,13 @@ class EtcSensorEntity(
 
     entity_description: EtcSensorEntityDescription
     _attr_has_entity_name = True
+    _unrecorded_attributes = frozenset(
+        {
+            "card_number",
+            "balance_display",
+            "balance_cents",
+        }
+    )
 
     def __init__(
         self,
